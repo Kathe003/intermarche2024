@@ -1,0 +1,215 @@
+
+
+/* modif php  */
+.header-vert
+{
+    background-color: green;
+}
+
+.header-bleu
+{
+    background-color: blue;
+}
+
+.header-rouge
+{
+    background-color: red;
+}
+
+
+.footer-vert
+{
+    background-color: green;
+}
+
+.footer-bleu
+{
+    background-color: blue;
+}
+
+.footer-rouge
+{
+    background-color: red;
+}
+
+
+
+.texte-blanc{background-color: aliceblue;}
+.texte-violet{background-color: blueviolet;}
+.texte-orange{background-color: orange;}
+
+.inverser
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.arriere-plan_turquoise{background-color: aquamarine;}
+.arriere-plan_rose{background-color: rgb(255, 154, 221);}
+.arriere-plan_bleu{background-color: rgb(52, 116, 255);}
+
+
+.police_serif{font-family: serif;}
+.police_sans-serif{font-family: sans-serif;}
+
+/*.img1_petite{width: 50px; height: 200px;}
+.img1_moyenne{width:px ; height: 300px;}
+.img1_grande{width: 300px; height: 400px;}
+
+/* fin modif php */
+
+
+header
+{
+    width: 100%;
+    height: 200px;
+    
+    color: aliceblue;
+    
+    
+}
+
+li:hover a 
+{
+    color:aquamarine ;
+}
+
+body
+{
+    
+    max-width: 1800px;
+    
+}
+
+.maintop
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.endmain
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.avis
+{
+    font-size: 35px;
+
+    border-radius: 5px;
+    width: 40%;
+    height: 20%;
+    margin-top: 105px;
+}
+
+.topheader
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 80px;
+    justify-content: space-between;
+    
+    
+
+}
+
+
+
+li{
+    list-style: none;
+}
+
+.headerWEART
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px ;
+
+}
+
+.prenoms
+{
+    display: flex;
+    justify-content: flex-end ;
+    flex-direction: row;
+    padding: 0px ;
+    margin: 0px ;
+    
+
+    color: aliceblue;
+    
+}
+
+
+
+.cathegorie
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px ;
+}
+
+a
+{
+    text-decoration: none;
+    color: aliceblue ;
+    margin: 10px;
+    font-family:"Blogh Trial",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+main
+{
+    background-color: aquamarine;
+    display: flex;
+   
+    flex-direction: column;
+}
+
+.biographie
+{
+
+    border-radius: 5px;
+    display: flex;
+    text-align: column ;
+    font-size: 35px;
+    width: 40%;
+    height: 40%;
+    
+}
+
+footer
+{
+    background-color: blueviolet;
+    height: 40%;
+    font-size: 40px;
+}
+
+.Catherine
+{
+    color: aquamarine;
+    border-left: solid 3px;
+}
+
+.presentation
+{
+    color: aquamarine;
+    
+    
+}
+
+.fillemer
+{
+    width: 30%;
+    margin-top: 50px;
+}
+
+.imgbateau
+{
+    width:30% ;
+    margin-bottom:  50px; ;
+}
